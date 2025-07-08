@@ -8,9 +8,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/portfolio.css">
-
+    <script src="https://kit.fontawesome.com/c19bd360c2.js" crossorigin="anonymous"></script>
 </head>
-<body class="open-sans-tamim se-bg">
+<body class="open-sans-tamim ">
     <header class="header" C>
         <nav>
             <h3 class="nav-title">Ta<span class="text-primary">m</span>im</h3>
@@ -25,8 +25,8 @@
                 <h4 class="banner-f dark-2">Hi,I am</h4>
                 <h1 class="banner-s dark-2">Tamim Hossen</h1>
                 <p class="banner-description">A passionate learner and aspiring web developer.Currently, I’m studying Chemical Engineering at Rajshahi university. I love building creative digital solutions. Problem-solving excites me, both in code & life.</p>
-                <button class="btn-primary">Download CV</button>
-                <button class="btn-primary">Contact</button>
+                <button class="btn-primary"><i class="fa-solid fa-arrow-down"></i>    Download CV</button>
+                <button class="btn-primary"><i class="fa-solid fa-phone"></i>Contact</button>
             </div>
             <img class="picture" src="images/tamim.png" alt="">
         </div>
@@ -56,6 +56,9 @@
             </div>
            
         </section>
+
+
+
         <section class="skills">
             <h3 class="section-title text-cen">What I Do</h3>
             <p class="section-des text-cen">I create clean and modern website designs.I build responsive and interactive UIs.Exploring Node.js and databases.I love fixing bugs and optimizing code.Building apps and digital tools.Staying updated with new tech.I enjoy working with others on projects.</p>
@@ -89,9 +92,81 @@
 
 
         </section>
-    </main>
-    <footer>
+        <section class="resume">
+            <h3 class="section-title text-cen">A summary of My Resume</h3>
+            <div class="resume-container">
 
+
+                <div class="resume-column">
+                    <h3 class="column-title">My Education</h3>
+                    <div class="experience">
+                        <h4 class="experience-title">B.Sc. in Applied Chemistry and Chemical Engineering</h4>
+                        <h5 class="experience-subt">Rajshahi University/2025 - 2029</h5>
+                        <div class="experience-des">I gained valuable knowledge and skills during my undergraduate life through academics and projects. I participated in extracurricular activities that enhanced my teamwork and leadership abilities. This journey helped me grow personally and professionally.</div>
+                    </div> <hr>
+                    <div class="experience">
+                        <h4 class="experience-title"> HSC in Science </h4>
+                        <h5 class="experience-subt">Cantonment College Jashore/2023-2024</h5>
+                        <div class="experience-des">I completed my Higher Secondary education in Science, focusing on Physics, Chemistry, Mathematics, and Biology. This stage built my analytical and problem-solving skills. I joined science fairs and group projects, improving teamwork. My strong results created a solid base for university life.
+
+                        </div> <hr>
+                    </div>
+                    <div class="experience">
+                        <h4 class="experience-title">SSC in Science </h4>
+                        <h5 class="experience-subt">National Pre Cadet Academy/2010-2022</h5>
+                        <div class="experience-des">
+                            I completed my Secondary education in Science with excellent results. This phase grew my interest in science and critical thinking. I participated in debates and quizzes, boosting communication skills. It shaped my discipline and motivation for higher studies.
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-column">
+                    <h3 class="column-title">My Experience</h3>
+                    <div class="experience">
+                        <h4 class="experience-title">Lead Front-End Developer and Web Application Engineer</h4> 
+                        <h5 class="experience-subt">Apple Inc. / 2020 – Current</h5>
+                        <div class="experience-des">Developed modern, responsive web applications using React.js, Next.js, and Tailwind CSS. Worked closely with designers and backend teams to deliver seamless user experiences. Led front-end optimization efforts to improve website speed and performance. Mentored junior developers to maintain code quality and best practices. </div>
+                    </div> <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">Front End Developer</h4>
+                        <h5 class="experience-subt">Google LLC / 2018 – 2020</h5>
+                        <div class="experience-des">I worked as a Front End Developer focusing on building user-friendly and responsive web applications. This role helped me grow my skills in HTML, CSS, and JavaScript with modern frameworks. I collaborated with UX designers and backend developers to ensure seamless functionality. My efforts improved performance and enhanced user experiences across multiple devices.</div>
+                    </div> <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">Junior Web Developer</h4>
+                        <h5 class="experience-subt">Microsoft / 2016 – 2018</h5>
+                        <div class="experience-des">Supported senior developers in building and maintaining web applications. Focused on writing clean, efficient code and debugging issues. Participated in agile sprints and team meetings for project delivery. Gained experience in version control and continuous integration tools. Contributed to documentation and testing efforts for better product quality.
+
+</div>
+                    </div>
+                </div>
+            </div>
+            <div class="resume-download-btn text-cen">
+                <button class="btn-primary "><i class="fa-solid fa-arrow-down"></i>Download CV</button>
+            </div>
+        </section>
+    </main>
+    <footer class="se-bg">
+       <div class="tamimm">
+         <div class="footer-column">
+            <h3 class="section-title">Lets Connect</h3>
+            <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+            <div>
+                <a href="https://www.facebook.com/ambivert.n"><img src="images/icons/facebook.png" alt="facebook"></a>
+                <a href=""><img src="images/icons/insta.png" alt="instagram"></a>
+                <a href=""><img src="images/icons/twitter.png" alt="twitter"></a>
+            </div>
+
+        </div>
+        <div class="footer-column">
+            <h3 class="section-title">Let’s Message me</h3>
+            <form action="">
+               <input type="text" name="" id="" placeholder="Your Name">
+               <input type="email" name="" id="" placeholder="Your Email">
+              <textarea cols="30" rows="10" placeholder="Write Message"></textarea>
+              <input class="btn-primary" type="submit" value="submit">
+            </form>
+        </div>
+       </div>
     </footer>
 </body>
 </html>
