@@ -239,7 +239,8 @@ footer input[type="text"], footer input[type="email"], footer textarea{
         margin:0px;
     }
     .textt{
-        margin-left: 200px;
+        margin-left: 180px;
+        margin-right: 20px;
     }
      
     
@@ -263,7 +264,8 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 }
 .banner-description{
     /* width: 100%; */
-    margin-left: 100px;
+    /* margin-left: 100px; */
+    margin: 0px 20px 0px 100px ;
     text-align: justify;
 }
 .section-des{
@@ -279,6 +281,7 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     nav {
     margin:20px;
     margin-left: 200px;
+    
   }
 }
 
