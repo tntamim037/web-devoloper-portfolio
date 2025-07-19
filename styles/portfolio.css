@@ -79,7 +79,7 @@ nav li a{
 .banner{
     display: flex;
     justify-content: space-between;
-margin:20px;
+    margin:20px;
 }
 
  .banner {
@@ -87,7 +87,7 @@ margin:20px;
   }
 
 .banner-content{
-    max-width: 580px;
+    max-width: 575px;
 
 }
 .banner-f{
@@ -216,17 +216,41 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     display: none;
 }
 @media screen and (max-width:576px) {
-    .skils-container, .resume-container,.tamimm, .about-items{
+    .skils-container, .resume-container,.tamimm, .about-items, .banner,nav, nav ul{
         flex-direction: column;
         /* width: 100%; */
         
+    }
+    nav{
+        margin-left: 30px;
+    }
+    nav ul{
+        gap: 15px;
     }
     footer{
         padding: 20px;
         margin-top: 0px;
     }
+    .picture{
+        width: 100%;
+        
+    }
+    .banner{
+        margin:0px;
+    }
+    .textt{
+        margin-left: 200px;
+    }
+     
+    
     .footer-column{
     width: 100%; 
+}
+.banner-s{
+    font-size: 50px;
+}
+.banner-content{
+    width: 100%;
 }
 footer input[type="text"], footer input[type="email"], footer textarea{
     width: calc(100% - 40px);
@@ -237,4 +261,24 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     border-radius: 10px;
     /* background-color: rgba(0, 255, 255,.4); */
 }
+.banner-description{
+    /* width: 100%; */
+    margin-left: 100px;
+    text-align: justify;
 }
+.section-des{
+    margin: 0px 15px;
+}
+.ex{
+    display: flex;
+    width: 100%;
+}
+/* .header{
+    background-image: none;
+} */
+    nav {
+    margin:20px;
+    margin-left: 200px;
+  }
+}
+
