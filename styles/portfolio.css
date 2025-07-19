@@ -266,7 +266,7 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 .banner-description{
     /* width: 100%; */
     /* margin-left: 100px; */
-    margin: 0px 20px 0px 100px ;
+    margin: 0px 20px 20px 100px ;
     text-align: justify;
 }
 .section-des{
@@ -276,6 +276,8 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     display: flex;
     /* width: 100%; */
     gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
 }
 /* .header{
     background-image: none;
@@ -284,6 +286,14 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     margin:20px;
     margin-left: 200px;
     
+  }
+  .btn-primary{
+    width: 350px;
+  }
+  .hire{
+    width: 150px;
+    font-size:18px ;
+    padding: 14px 20px;
   }
 }
 
