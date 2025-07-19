@@ -4,7 +4,7 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    /* width :100; */
 }
 /* shared style */
 .se-bg{
@@ -45,11 +45,10 @@ nav{
     justify-content: space-between;
  margin: 20px;
 }
-@media (min-width: 992px) {
-  nav {
+
+ nav {
     margin: 50px 200px;
   }
-}
 .btn-primary{
     background-color:#FD6E0A;
     font-weight: bold;
@@ -82,11 +81,10 @@ nav li a{
     justify-content: space-between;
 margin:20px;
 }
-@media (min-width: 992px) {
-  .banner {
+
+ .banner {
     margin: 0 35px 0 200px;
   }
-}
 
 .banner-content{
     max-width: 580px;
@@ -189,19 +187,21 @@ main section{
 /* footer */
 footer{
     padding: 130px 230px;
-    
+     
 }
 
-    @media (max-width: 768px) {
-  .tamimm {
+.tamimm{
      display: flex;
-    flex-direction: column;
     gap: 30px;
-  }
+ 
 }
+   
+  
+
 
 .footer-column{
     width: 50%;
+    
 }
 footer input[type="text"], footer input[type="email"], footer textarea{
     /* height: 64px; */
